@@ -1,0 +1,34 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/GestionAcademica.Api/GestionAcademica.Api.csproj",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "Iniciar Sistema Web",
+      "type": "shell",
+      "command": ".\\iniciar_web.bat",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Iniciar Modo Desarrollo",
+      "type": "shell",
+      "command": ".\\iniciar_dev.bat",
+      "problemMatcher": []
+    }
+  ]
+}
+

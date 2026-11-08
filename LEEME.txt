@@ -1,0 +1,54 @@
+===================================================================
+SISTEMA DE GESTIÓN ACADÉMICA - APLICACIÓN WEB FULL-STACK
+===================================================================
+
+Arquitectura moderna Web:
+- Backend: ASP.NET Core Web API (.NET 10) con conexión nativa a SQL Server (.\SQLEXPRESS).
+- Frontend: Aplicación React 18 + Vite + Tailwind CSS + Lucide Icons.
+- Autenticación: Inicio de sesión obligatorio por credenciales y roles.
+- Navegación: Barra Uiverse Squircle Dock con SVG clipPath y elevación fluida.
+
+---------------------------------------------------
+¿CÓMO INICIAR EL SISTEMA?
+---------------------------------------------------
+1. Opción 1 (Recomendada):
+   Haz doble clic en "iniciar_web.bat" (o "iniciar.bat").
+   El servidor arrancará en menos de 1 segundo y abrirá tu navegador en:
+   👉 http://localhost:5000
+
+2. Opción 2 (Desde la Terminal):
+   Abre PowerShell en esta carpeta y escribe:
+   .\iniciar_web.bat
+
+3. Opción 3 (Modo Desarrollo con Recarga en Vivo):
+   Haz doble clic en "iniciar_dev.bat".
+
+---------------------------------------------------
+CREDENCIALES DE ACCESO (LOGIN):
+---------------------------------------------------
+- Administrador:
+  Usuario   : admin
+  Contraseña: admin123
+
+- Docente:
+  Usuario   : docente
+  Contraseña: docente123
+
+---------------------------------------------------
+ESTRUCTURA LIMPIA DE CARPETAS:
+---------------------------------------------------
+- GestionAcademica.Api/  : Backend REST API (.NET 10) y servidor web estático (wwwroot/).
+- GestionAcademica.Web/  : Código fuente editable del Frontend en React + Tailwind.
+- BaseDeDatos/           : Scripts SQL (01_CrearBase.sql, 02_DatosDePrueba.sql).
+- .vscode/               : Tareas y configuración de ejecución para Antigravity IDE.
+- iniciar_web.bat        : Lanzador en 1 clic para el sistema web.
+- iniciar_dev.bat        : Lanzador para desarrollo.
+- iniciar.bat            : Menú de inicio web rápido.
+- LEEME.txt              : Este manual de información.
+
+---------------------------------------------------
+BASE DE DATOS:
+---------------------------------------------------
+- Servidor: .\SQLEXPRESS (o localhost\SQLEXPRESS)
+- Base de datos: gestion academica (Autenticación Windows integrada)
+- Si deseas recrear la base de datos desde cero, ve al módulo "Ajustes" dentro del sistema web y pulsa "Recrear / Inicializar BD con Scripts SQL".
