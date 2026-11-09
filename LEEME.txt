@@ -12,16 +12,16 @@ Arquitectura moderna Web:
 ¿CÓMO INICIAR EL SISTEMA?
 ---------------------------------------------------
 1. Opción 1 (Recomendada):
-   Haz doble clic en "iniciar_web.bat" (o "iniciar.bat").
+   Haz doble clic en "iniciar.bat".
    El servidor arrancará en menos de 1 segundo y abrirá tu navegador en:
    👉 http://localhost:5000
 
 2. Opción 2 (Desde la Terminal):
    Abre PowerShell en esta carpeta y escribe:
-   .\iniciar_web.bat
+   .\iniciar.bat
 
 3. Opción 3 (Modo Desarrollo con Recarga en Vivo):
-   Haz doble clic en "iniciar_dev.bat".
+   Haz doble clic en "modo_desarrollo.bat".
 
 ---------------------------------------------------
 CREDENCIALES DE ACCESO (LOGIN):
@@ -41,9 +41,8 @@ ESTRUCTURA LIMPIA DE CARPETAS:
 - frontend/              : Código fuente editable del Frontend en React + Tailwind.
 - BaseDeDatos/           : Scripts SQL (01_CrearBase.sql, 02_DatosDePrueba.sql).
 - .vscode/               : Tareas y configuración de ejecución para Antigravity IDE.
-- iniciar_web.bat        : Lanzador en 1 clic para el sistema web.
-- iniciar_dev.bat        : Lanzador para desarrollo.
-- iniciar.bat            : Menú de inicio web rápido.
+- iniciar.bat            : Lanzador principal en 1 clic para el sistema web.
+- modo_desarrollo.bat    : Lanzador para desarrollo (React Vite HMR + API).
 - LEEME.txt              : Este manual de información.
 
 ---------------------------------------------------

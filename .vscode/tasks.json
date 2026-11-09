@@ -16,7 +16,7 @@
     {
       "label": "Iniciar Sistema Web",
       "type": "shell",
-      "command": ".\\iniciar_web.bat",
+      "command": ".\\iniciar.bat",
       "problemMatcher": [],
       "group": {
         "kind": "build",
@@ -26,7 +26,7 @@
     {
       "label": "Iniciar Modo Desarrollo",
       "type": "shell",
-      "command": ".\\iniciar_dev.bat",
+      "command": ".\\modo_desarrollo.bat",
       "problemMatcher": []
     }
   ]
