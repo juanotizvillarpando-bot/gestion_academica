@@ -13,7 +13,7 @@ export default defineConfig({
     }
   },
   build: {
-    outDir: '../GestionAcademica.Api/wwwroot',
+    outDir: '../backend/wwwroot',
     emptyOutDir: true
   }
 })

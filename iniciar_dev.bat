@@ -13,11 +13,11 @@ if %ERRORLEVEL% neq 0 (
 )
 
 echo [1/2] Iniciando Backend API en http://localhost:5000...
-start "Backend API (ASP.NET Core)" cmd /k "cd /d %~dp0GestionAcademica.Api && dotnet run --no-restore --urls http://localhost:5000"
+start "Backend API (ASP.NET Core)" cmd /k "cd /d %~dp0backend && dotnet run --no-restore --urls http://localhost:5000"
 
 echo [2/2] Iniciando Frontend React (Vite Hot-Reload) en http://localhost:5173...
 start "" powershell -NoProfile -Command "Start-Sleep -Seconds 3; Start-Process 'http://localhost:5173'"
 
-cd /d "%~dp0GestionAcademica.Web"
+cd /d "%~dp0frontend"
 npm run dev
 

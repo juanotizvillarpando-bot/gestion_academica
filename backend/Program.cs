@@ -7,6 +7,7 @@ using GestionAcademica.Api.Models;
 var candidates = new[]
 {
     Path.Combine(AppContext.BaseDirectory, "wwwroot"),
+    Path.Combine(Directory.GetCurrentDirectory(), "backend", "wwwroot"),
     Path.Combine(Directory.GetCurrentDirectory(), "GestionAcademica.Api", "wwwroot"),
     Path.Combine(Directory.GetCurrentDirectory(), "wwwroot"),
     Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "wwwroot")

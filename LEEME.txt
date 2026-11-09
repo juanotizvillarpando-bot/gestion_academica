@@ -37,8 +37,8 @@ CREDENCIALES DE ACCESO (LOGIN):
 ---------------------------------------------------
 ESTRUCTURA LIMPIA DE CARPETAS:
 ---------------------------------------------------
-- GestionAcademica.Api/  : Backend REST API (.NET 10) y servidor web estático (wwwroot/).
-- GestionAcademica.Web/  : Código fuente editable del Frontend en React + Tailwind.
+- backend/               : Backend REST API (.NET 10) y servidor web estático (wwwroot/).
+- frontend/              : Código fuente editable del Frontend en React + Tailwind.
 - BaseDeDatos/           : Scripts SQL (01_CrearBase.sql, 02_DatosDePrueba.sql).
 - .vscode/               : Tareas y configuración de ejecución para Antigravity IDE.
 - iniciar_web.bat        : Lanzador en 1 clic para el sistema web.

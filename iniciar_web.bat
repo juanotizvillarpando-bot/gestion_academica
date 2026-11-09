@@ -26,7 +26,7 @@ start "" powershell -NoProfile -Command "$ErrorActionPreference='SilentlyContinu
 echo [2/2] Iniciando Servidor Web en http://localhost:5000...
 echo.
 
-cd /d "%~dp0GestionAcademica.Api"
+cd /d "%~dp0backend"
 
 :: Si la DLL ya esta compilada, iniciar directamente en milisegundos
 if exist "bin\Debug\net10.0\GestionAcademica.Api.dll" (

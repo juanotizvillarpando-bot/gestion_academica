@@ -7,7 +7,7 @@
       "type": "process",
       "args": [
         "build",
-        "${workspaceFolder}/GestionAcademica.Api/GestionAcademica.Api.csproj",
+        "${workspaceFolder}/backend/GestionAcademica.Api.csproj",
         "/property:GenerateFullPaths=true",
         "/consoleloggerparameters:NoSummary"
       ],
