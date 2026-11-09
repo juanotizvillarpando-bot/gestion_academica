@@ -7,7 +7,6 @@ import {
   CalendarDays,
   FileCheck2,
   ClipboardPen,
-  Settings,
 } from 'lucide-react';
 
 const MODULES = [
@@ -59,13 +58,6 @@ const MODULES = [
     icon: ClipboardPen,
     gradient: 'from-purple-600 to-purple-800 border-purple-500/50 hover:shadow-purple-600/50',
     activeRing: 'ring-purple-400',
-  },
-  {
-    id: 'ajustes',
-    label: 'Ajustes',
-    icon: Settings,
-    gradient: 'from-cyan-600 to-cyan-800 border-cyan-500/50 hover:shadow-cyan-600/50',
-    activeRing: 'ring-cyan-400',
   },
 ];
 

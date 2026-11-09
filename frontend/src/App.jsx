@@ -10,7 +10,6 @@ import MateriasView from './views/MateriasView';
 import PeriodosView from './views/PeriodosView';
 import OfertasView from './views/OfertasView';
 import InscripcionesView from './views/InscripcionesView';
-import ConfiguracionView from './views/ConfiguracionView';
 import { api } from './services/api';
 
 export default function App() {
@@ -78,9 +77,6 @@ export default function App() {
         {activeTab === 'periodos' && <PeriodosView notify={notify} />}
         {activeTab === 'ofertas' && <OfertasView notify={notify} />}
         {activeTab === 'inscripcion' && <InscripcionesView notify={notify} />}
-        {activeTab === 'ajustes' && (
-          <ConfiguracionView notify={notify} onStatusChange={setServerStatus} />
-        )}
       </main>
 
       {/* Notificaciones Toast Flotantes */}
